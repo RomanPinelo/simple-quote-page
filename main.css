@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.frase {
+  width: 80%;
+  margin: 5% auto;
+  font-size: 190%;
+  font-weight: bold;
+  line-height: 1.6;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+}
+
+.autor {
+  font-weight: bold;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+}
